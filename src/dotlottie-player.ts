@@ -1,5 +1,5 @@
 import { customElement, LitElement, html, property, query, TemplateResult } from 'lit-element';
-import * as lottie from 'lottie-web/build/player/lottie_svg';
+import * as lottie from 'lottie-web/build/player/lottie_light';
 import JSZip from 'jszip/dist/jszip';
 
 import styles from './dotlottie-player.styles';

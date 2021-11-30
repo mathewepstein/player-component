@@ -2,7 +2,8 @@
 .history
 .idea
 .vscode
-
+.DS_Store
+*.local
 dist/
 node_modules
 

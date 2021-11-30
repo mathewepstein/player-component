@@ -17,7 +17,8 @@
     "start": "npm run cleanup && rollup -c --watch",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
-    "cleanup": "shx rm -rf dist && shx mkdir dist"
+    "cleanup": "shx rm -rf dist && shx mkdir dist",
+    "prepare": "yarn build-dotlottie"
   },
   "dependencies": {
     "jszip": "^3.5.0",

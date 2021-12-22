@@ -11,14 +11,14 @@
   "author": "Jawish Hameed <jawish@lottiefiles.com>, Mathew Epstein <me@mathewepstein.com>",
   "license": "MIT",
   "scripts": {
-    "build": "yarn build-dotlottie",
+    "build": "npm run build-dotlottie",
     "build-dotlottie": "npm run cleanup && rollup -c",
     "build:types": "tsc --declaration",
     "start": "npm run cleanup && rollup -c --watch",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
     "cleanup": "shx rm -rf dist && shx mkdir dist",
-    "prepare": "yarn build-dotlottie"
+    "prepare": "npm run build-dotlottie"
   },
   "dependencies": {
     "jszip": "^3.5.0",
